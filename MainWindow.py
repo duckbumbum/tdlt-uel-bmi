@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\GitHub\MainWindow.ui'
+# Form implementation generated from reading ui file 'C:\Users\Admin\OneDrive\Documents\GitHub\tdlt-uel-bmi\MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -12,12 +12,81 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(1000, 600)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.tblCustomers = QtWidgets.QTableWidget(parent=self.centralwidget)
+        self.tblCustomers.setGeometry(QtCore.QRect(20, 20, 960, 400))
+        self.tblCustomers.setRowCount(0)
+        self.tblCustomers.setColumnCount(4)
+        self.tblCustomers.setObjectName("tblCustomers")
+        item = QtWidgets.QTableWidgetItem()
+        self.tblCustomers.setHorizontalHeaderItem(0, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tblCustomers.setHorizontalHeaderItem(1, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tblCustomers.setHorizontalHeaderItem(2, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tblCustomers.setHorizontalHeaderItem(3, item)
+        self.btnAdd = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.btnAdd.setGeometry(QtCore.QRect(20, 450, 200, 50))
+        self.btnAdd.setStyleSheet("\n"
+"         QPushButton {\n"
+"             background-color: #5cb85c;\n"
+"             color: white;\n"
+"             font-size: 16px;\n"
+"             border-radius: 8px;\n"
+"         }\n"
+"         QPushButton:hover {\n"
+"             background-color: #4cae4c;\n"
+"         }\n"
+"     ")
+        self.btnAdd.setObjectName("btnAdd")
+        self.btnEdit = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.btnEdit.setGeometry(QtCore.QRect(240, 450, 200, 50))
+        self.btnEdit.setStyleSheet("\n"
+"         QPushButton {\n"
+"             background-color: #f0ad4e;\n"
+"             color: white;\n"
+"             font-size: 16px;\n"
+"             border-radius: 8px;\n"
+"         }\n"
+"         QPushButton:hover {\n"
+"             background-color: #ec971f;\n"
+"         }\n"
+"     ")
+        self.btnEdit.setObjectName("btnEdit")
+        self.btnDelete = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.btnDelete.setGeometry(QtCore.QRect(460, 450, 200, 50))
+        self.btnDelete.setStyleSheet("\n"
+"         QPushButton {\n"
+"             background-color: #d9534f;\n"
+"             color: white;\n"
+"             font-size: 16px;\n"
+"             border-radius: 8px;\n"
+"         }\n"
+"         QPushButton:hover {\n"
+"             background-color: #c9302c;\n"
+"         }\n"
+"     ")
+        self.btnDelete.setObjectName("btnDelete")
+        self.btnView = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.btnView.setGeometry(QtCore.QRect(680, 450, 200, 50))
+        self.btnView.setStyleSheet("\n"
+"         QPushButton {\n"
+"             background-color: #0275d8;\n"
+"             color: white;\n"
+"             font-size: 16px;\n"
+"             border-radius: 8px;\n"
+"         }\n"
+"         QPushButton:hover {\n"
+"             background-color: #025aa5;\n"
+"         }\n"
+"     ")
+        self.btnView.setObjectName("btnView")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 18))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1000, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -29,4 +98,16 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Quản Lý Khách Hàng"))
+        item = self.tblCustomers.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "ID"))
+        item = self.tblCustomers.horizontalHeaderItem(1)
+        item.setText(_translate("MainWindow", "Tên"))
+        item = self.tblCustomers.horizontalHeaderItem(2)
+        item.setText(_translate("MainWindow", "Số điện thoại"))
+        item = self.tblCustomers.horizontalHeaderItem(3)
+        item.setText(_translate("MainWindow", "Địa chỉ"))
+        self.btnAdd.setText(_translate("MainWindow", "Thêm Khách Hàng"))
+        self.btnEdit.setText(_translate("MainWindow", "Sửa Thông Tin"))
+        self.btnDelete.setText(_translate("MainWindow", "Xóa Khách Hàng"))
+        self.btnView.setText(_translate("MainWindow", "Xem Chi Tiết"))
