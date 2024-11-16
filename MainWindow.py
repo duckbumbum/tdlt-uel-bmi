@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Form implementation generated from reading ui file 'C:\Users\Admin\OneDrive\Documents\GitHub\tdlt-uel-bmi\MainWindow.ui'
+=======
+# Form implementation generated from reading ui file 'D:\tdlt-uel-bmi\ui\MainWindow.ui'
+>>>>>>> Stashed changes
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -17,8 +21,13 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.tblCustomers = QtWidgets.QTableWidget(parent=self.centralwidget)
         self.tblCustomers.setGeometry(QtCore.QRect(20, 20, 960, 400))
+<<<<<<< Updated upstream
         self.tblCustomers.setRowCount(0)
         self.tblCustomers.setColumnCount(4)
+=======
+        self.tblCustomers.setColumnCount(4)
+        self.tblCustomers.setRowCount(0)
+>>>>>>> Stashed changes
         self.tblCustomers.setObjectName("tblCustomers")
         item = QtWidgets.QTableWidgetItem()
         self.tblCustomers.setHorizontalHeaderItem(0, item)
@@ -86,7 +95,11 @@ class Ui_MainWindow(object):
         self.btnView.setObjectName("btnView")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
+<<<<<<< Updated upstream
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1000, 26))
+=======
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1000, 21))
+>>>>>>> Stashed changes
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)

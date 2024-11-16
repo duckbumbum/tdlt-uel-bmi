@@ -23,12 +23,21 @@
       <height>400</height>
      </rect>
     </property>
+<<<<<<< Updated upstream
     <property name="rowCount">
      <number>0</number>
     </property>
     <property name="columnCount">
      <number>4</number>
     </property>
+=======
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+>>>>>>> Stashed changes
     <column>
      <property name="text">
       <string>ID</string>
@@ -36,19 +45,14 @@
     </column>
     <column>
      <property name="text">
-      <string>Tên</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
+      <string>Tên</string> </property></column> <column> <property name="text">
       <string>Số điện thoại</string>
      </property>
     </column>
     <column>
      <property name="text">
       <string>Địa chỉ</string>
-     </property>
-    </column>
+     </property> </column>
    </widget>
    <widget class="QPushButton" name="btnAdd">
     <property name="geometry">
@@ -59,6 +63,12 @@
       <height>50</height>
      </rect>
     </property>
+<<<<<<< Updated upstream
+=======
+    <property name="text">
+     <string>Thêm Khách Hàng</string>
+    </property>
+>>>>>>> Stashed changes
     <property name="styleSheet">
      <string notr="true">
          QPushButton {
@@ -72,9 +82,12 @@
          }
      </string>
     </property>
+<<<<<<< Updated upstream
     <property name="text">
      <string>Thêm Khách Hàng</string>
     </property>
+=======
+>>>>>>> Stashed changes
    </widget>
    <widget class="QPushButton" name="btnEdit">
     <property name="geometry">
@@ -85,6 +98,12 @@
       <height>50</height>
      </rect>
     </property>
+<<<<<<< Updated upstream
+=======
+    <property name="text">
+     <string>Sửa Thông Tin</string>
+    </property>
+>>>>>>> Stashed changes
     <property name="styleSheet">
      <string notr="true">
          QPushButton {
@@ -98,9 +117,12 @@
          }
      </string>
     </property>
+<<<<<<< Updated upstream
     <property name="text">
      <string>Sửa Thông Tin</string>
     </property>
+=======
+>>>>>>> Stashed changes
    </widget>
    <widget class="QPushButton" name="btnDelete">
     <property name="geometry">
@@ -111,6 +133,12 @@
       <height>50</height>
      </rect>
     </property>
+<<<<<<< Updated upstream
+=======
+    <property name="text">
+     <string>Xóa Khách Hàng</string>
+    </property>
+>>>>>>> Stashed changes
     <property name="styleSheet">
      <string notr="true">
          QPushButton {
@@ -124,9 +152,12 @@
          }
      </string>
     </property>
+<<<<<<< Updated upstream
     <property name="text">
      <string>Xóa Khách Hàng</string>
     </property>
+=======
+>>>>>>> Stashed changes
    </widget>
    <widget class="QPushButton" name="btnView">
     <property name="geometry">
@@ -137,6 +168,12 @@
       <height>50</height>
      </rect>
     </property>
+<<<<<<< Updated upstream
+=======
+    <property name="text">
+     <string>Xem Chi Tiết</string>
+    </property>
+>>>>>>> Stashed changes
     <property name="styleSheet">
      <string notr="true">
          QPushButton {
@@ -150,9 +187,12 @@
          }
      </string>
     </property>
+<<<<<<< Updated upstream
     <property name="text">
      <string>Xem Chi Tiết</string>
     </property>
+=======
+>>>>>>> Stashed changes
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -161,7 +201,11 @@
      <x>0</x>
      <y>0</y>
      <width>1000</width>
+<<<<<<< Updated upstream
      <height>26</height>
+=======
+     <height>21</height>
+>>>>>>> Stashed changes
     </rect>
    </property>
   </widget>
